@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    background-color: grey;
+}
+
+.box1{
+    box-sizing: border-box;
+    border: solid green 2px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    left: 557.5px;
+    top: 50px;
+    height: 500px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 40%fr 60%fr;
+    padding: 40px;
+}
+
+.box2{
+    box-sizing: border-box;
+    border: solid orange 5px;
+    border-radius: 40px;
+    padding: 20px;
+    content: '';
+}
+
+.numbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chars{
+    margin: 15px;
+    border: 3px solid coral;
+    padding: 10px;
+    background-color: coral;
+    color: aliceblue;
+}
+
