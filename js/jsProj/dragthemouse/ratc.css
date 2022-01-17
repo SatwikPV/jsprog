@@ -1,0 +1,27 @@
+.box{
+    position: absolute;
+    top:10vh;
+    left: 40vh;
+
+    box-sizing: border-box;
+    height: 50px;
+    width: 100px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+
+    color: darkblue;
+    font-weight: 900;
+
+    border-radius: 6px;
+}
+
+.rat{
+    position: absolute;
+}
+
+
+
